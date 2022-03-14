@@ -195,6 +195,9 @@ export default function Files({ user }) {
         <td data-label="Date" className="nowrap" title={nft.created}>
           {nft.created.split('T')[0]}
         </td>
+        <td data-label="Label" className="nowrap" title={nft.label}>
+          {nft.name}
+        </td>
         <td data-label="CID" className="nowrap">
           <CopyButton
             title="Copy CID to Clipboard"
@@ -347,6 +350,24 @@ export default function Files({ user }) {
                       <thead>
                         <tr className="bg-nsgray">
                           <th>Date</th>
+                          <th>
+                            <span aria-describedby="label-tooltip">
+                              Label
+                              <Tooltip
+                                placement="top"
+                                overlay={
+                                  <span>
+                                    An optional text label for organizing your
+                                    uploads
+                                  </span>
+                                }
+                                overlayClassName="table-tooltip"
+                                id="label-tooltip"
+                              >
+                                <VscQuestion size={16} />
+                              </Tooltip>
+                            </span>
+                          </th>
                           <th>
                             <span aria-describedby="cid-tooltip">
                               CID
