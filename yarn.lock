@@ -1945,11 +1945,6 @@
   resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.1.0.tgz#d27e7e76c87a460a4da99c5bfdb1618dcd6cd064"
   integrity sha512-aBvcbMwuanDH4EMrL2TthNJy+4nP59Bimn8egqv6GHMVj0a44cU6Au4PjOhLNqEh9l+IpRGBqMTzec94UdC5xg==
 
-"@nftstorage/ipfs-cluster@^3.4.3":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@nftstorage/ipfs-cluster/-/ipfs-cluster-3.5.0.tgz#4cffbb7125e59fe11b179a3a4f96dfb68ace1369"
-  integrity sha512-XaqS5Gf4Uc37Y8jAOw2s9D8xkFFyVx4lXgyl88nc0AjNXzH+t0fBvH1mUxZ+fxm+d42YPEUW6mG+YSe1BPjKQA==
-
 "@nftstorage/ipfs-cluster@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@nftstorage/ipfs-cluster/-/ipfs-cluster-4.0.0.tgz#245a0cb733050c5b0d3811cee69ad4040cf38672"
@@ -1959,11 +1954,6 @@
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@noble/ed25519/-/ed25519-1.6.0.tgz#b55f7c9e532b478bf1d7c4f609e1f3a37850b583"
   integrity sha512-UKju89WV37IUALIMfKhKW3psO8AqmrE/GvH6QbPKjzolQ98zM7WmGUeY+xdIgSf5tqPFf75ZCYMgym6E9Jsw3Q==
-
-"@nftstorage/ipfs-cluster@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@nftstorage/ipfs-cluster/-/ipfs-cluster-4.0.0.tgz#245a0cb733050c5b0d3811cee69ad4040cf38672"
-  integrity sha512-PEt85HJdXpmQ8PULbC7iDdtf12KrM9tblR+o/2k+/0pvcpAdrplJeTQkUiEGRBiyeevjFXvyMs0f/eGpfxBBgA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -13818,6 +13808,11 @@ throat@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/throat/-/throat-6.0.1.tgz#d514fedad95740c12c2d7fc70ea863eb51ade375"
   integrity sha512-8hmiGIJMDlwjg7dlJ4yKGLK8EsYqKgPWbG3b4wjJddKNwc7N7Dpn08Df4szr/sZdMVeOstrdYSsqzX6BYbcB+w==
+
+throttled-queue@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/throttled-queue/-/throttled-queue-2.1.2.tgz#52d39708ee5adf019091eed7c820e1def8544b22"
+  integrity sha512-tUa5+OEw0zqNeKFFc/meOruMylj3ZZSS1X1e8WqU2YZ5jFwIU0qQP8IMuLq1eIuqdhHukktwONajChwqEwMkqA==
 
 through@^2.3.8, through@~2.3.4:
   version "2.3.8"
